@@ -11,6 +11,8 @@ set ruler
 filetype plugin on
 syntax on
 
+nmap <C-l> :nohl<CR>
+
 execute pathogen#infect()
 
 nmap <F9> :NERDTreeToggle<CR>
