@@ -20,3 +20,5 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTree
 
 let g:clang_c_options = '-std=c99'
 let g:clang_cpp_options = '-std=c++11'
+
+let g:go_version_warning = 0
